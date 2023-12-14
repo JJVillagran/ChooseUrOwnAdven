@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.startScreen {
+  display: block;
+}
+
+.mournScreen {
+  display: none;
+}
+
+.copeScreen {
+  display: none;
+}
+
+.acceptScreen {
+  display: none;
+}
+
+.okScreen {
+  display: none;
+}
+
+.wrongScreen {
+  display: none;
+}
+
+.refuseDrinkScreen {
+  display: none;
+}
+
+.refuseCoffeeScreen {
+  display: none;
+}
+
+
+audio {
+  display: none;
+}
+
+
+body {
+  background-color: #808080;
+}
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  height: 20px;
+}
+
+.ok {
+  width: 750px;
+  height: 575px;
+  
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000000;
+}
+
+/* p {
+  color: #0d0707;
+  text-align: center;
+font-size: 1.5em;
+  padding: 5px;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.8;
+}
+ */
+p {
+  color: #ffffff;
+  text-align: center;
+  background-color: #404040;
+  padding: 5px;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.8;
+}
+
+button {
+  padding: 10px;
+  text-align: center;
+  background-color: #404040;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+}
+
+button:hover {
+  background-color: #a9a9a9;
+  color: #404040;
+  border: 1px solid white;
+}
+
+.accept {
+  width: 750px;
+  height: 623px; 
+}
+
+.bar {
+  width: 750px;
+  height: 680px;
+}
+
+.coffee {
+  width: 750px;
+  height: 623px;
+}
+
+.refuseCoffee {
+  width: 750px;
+  height: 401px;
+}
+
+heading {
+  font-family: 'Montserrat', sans-serif;
+}
